@@ -201,4 +201,4 @@ MIT License - see [LICENSE](LICENSE) file.
 
 ---
 
-**Built with ❤️ by SKT-AI-LABS** | *Winning hackathons since 2026*
+**Built with ❤️ by SKT-AI-LABS**
