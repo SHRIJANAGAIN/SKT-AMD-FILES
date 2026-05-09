@@ -2,7 +2,7 @@
 
 > **The most powerful open-source AI Agent framework. Period.**
 > 
-> Built for hackathon winners. Built for production warriors.
+> Built for Open Source Community.
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -145,7 +145,7 @@ result = await team.execute(
 │                           │                                     │
 │  ┌────────────────────────┼────────────────────────┐           │
 │  │         LLM LAYER      │                        │           │
-│  │  Gemini │ GPT-4 │ Llama │ Claude │ Custom      │           │
+│  │  Gemini │ GPT-4 │ Llama │ Claude │SKT-OMNI-SUPREME      │           │
 │  └────────────────────────┴────────────────────────┘           │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -201,4 +201,4 @@ MIT License - see [LICENSE](LICENSE) file.
 
 ---
 
-**Built with ❤️ by SKT-AI-LABS** | *Winning hackathons since 2026*
+**Built with ❤️ by SKT-AI-LABS** | *Working For Open Source Community*
