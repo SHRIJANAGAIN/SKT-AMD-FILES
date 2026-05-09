@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+include .env.example
+recursive-include skt_ai_labs *.py
+recursive-include examples *.py
+recursive-include docs *.md
+recursive-include tests *.py
