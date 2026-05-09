@@ -1,7 +1,8 @@
 # 🔥 SKT-AI-LABS Agent Development Kit (ADK)
 
 > **The most powerful open-source AI Agent framework. Period.**
-
+> 
+> Built for hackathon winners. Built for production warriors.
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -144,7 +145,7 @@ result = await team.execute(
 │                           │                                     │
 │  ┌────────────────────────┼────────────────────────┐           │
 │  │         LLM LAYER      │                        │           │
-│  │  SKT-OMNI-SUPREME │ GPT-4 │ Llama │ Claude │ Gemini      │           │
+│  │  Gemini │ GPT-4 │ Llama │ Claude │ Custom      │           │
 │  └────────────────────────┴────────────────────────┘           │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -200,4 +201,4 @@ MIT License - see [LICENSE](LICENSE) file.
 
 ---
 
-**Built with ❤️ by SKT-AI-LABS**
+**Built with ❤️ by SKT-AI-LABS** | *Winning hackathons since 2026*
