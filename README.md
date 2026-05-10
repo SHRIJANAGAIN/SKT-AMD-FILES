@@ -8,6 +8,124 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![LangGraph](https://img.shields.io/badge/LangGraph-0.2+-green.svg)](https://langchain-ai.github.io/langgraph/)
 
+
+# SKT-OM | 13B Agentic RAG System
+
+[![HF Space](https://img.shields.io/badge/🤗_HuggingFace-Space-ff9d00?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/spaces/lablab-ai-amd-developer-hackathon/SKT-OM)
+[![Model](https://img.shields.io/badge/🧠_TIGER--OM-13B-ff6b6b?style=for-the-badge)](https://huggingface.co/Shrijanagain/TIGER-OM)
+[![GitHub](https://img.shields.io/badge/🐙_GitHub-Repo-181717?style=for-the-badge&logo=github)](https://github.com/SHRIJANAGAIN/SKT-AMD-FILES)
+[![Demo](https://img.shields.io/badge/🌐_Live-Demo-00d4ff?style=for-the-badge&logo=render)](https://skt-amd-om.onrender.com/)
+[![GGUF](https://img.shields.io/badge/📦_GGUF-Q4__K__M-39ff14?style=for-the-badge)](https://huggingface.co/Shrijanagain/TIGER-GGUF)
+[![Hackathon](https://img.shields.io/badge/🏆_AMD-Hackathon_2026-bc13fe?style=for-the-badge)](https://lablab.ai/ai-hackathons/amd-developer/amd-om/skt-om-13b-llm-langgraph-agentic-rag)
+[![PDF](https://img.shields.io/badge/📊_Presentation-PDF-ff006e?style=for-the-badge)](https://storage.googleapis.com/lablab-static-eu/presentations/submissions/c1v2zj9hlt13p54nlxxov7aq/c1v2zj9hlt13p54nlxxov7aq-1778393640909_r0a4kpyvnxq2uln14ueozvyy.pdf)
+
+---
+
+## ⚡ What is SKT-OM?
+
+**SKT-OM** is a **13B Agentic RAG System** built for the **AMD Developer Hackathon 2026**. It combines:
+
+| Component | Tech |
+|-----------|------|
+| 🧠 LLM | TIGER-OM 13B (trained on AMD Cloud) |
+| 🎯 Inference | vLLM FP16 on AMD MI300X |
+| 🔧 Runtime | ROCm 7.0 |
+| 🧩 Agents | LangGraph Multi-Agent Orchestration |
+| 🔌 Plugins | 73+ Google ADK Style Plugins |
+| 📚 RAG | SKT RAG Pipeline (Multi-hop + Rerank) |
+| 🎛️ Control | Think Mode + Supervisor |
+
+---
+
+## 📊 Stats
+
+```
+73+ Plugins     | 12 Categories    | 6 Core Agents
+97.3% Accuracy  | 2.3s Avg Response
+```
+
+---
+
+## 🔗 Quick Links
+
+| Resource | Link |
+|----------|------|
+| 🤗 HuggingFace Space | [Live Demo on HF](https://huggingface.co/spaces/lablab-ai-amd-developer-hackathon/SKT-OM) |
+| 🧠 TIGER-OM Model | [13B LLM](https://huggingface.co/Shrijanagain/TIGER-OM) |
+| 🐙 GitHub Repo | [Source Code](https://github.com/SHRIJANAGAIN/SKT-AMD-FILES) |
+| 🌐 Live Demo | [Render App](https://skt-amd-om.onrender.com/) |
+| 📦 GGUF Quantized | [Q4_K_M](https://huggingface.co/Shrijanagain/TIGER-GGUF) |
+| 🏆 Hackathon Page | [AMD Dev 2026](https://lablab.ai/ai-hackathons/amd-developer/amd-om/skt-om-13b-llm-langgraph-agentic-rag) |
+| 📊 Presentation PDF | [Full Deck](https://storage.googleapis.com/lablab-static-eu/presentations/submissions/c1v2zj9hlt13p54nlxxov7aq/c1v2zj9hlt13p54nlxxov7aq-1778393640909_r0a4kpyvnxq2uln14ueozvyy.pdf) |
+
+---
+
+## 🚀 How It Works
+
+```
+🎯 User Query → 🧠 Think Mode → 🔌 Plugin Router → 📚 SKT RAG
+                                              ↓
+                        🤖 LangGraph Agents → ✅ Verify → 📤 Response
+```
+
+### 7-Step Pipeline
+
+1. **🎯 User Query Input** — Natural language query
+2. **🧠 Think Mode** — Intent classification + complexity assessment
+3. **🔌 Plugin Router** — Dynamic tool loading (73+ plugins)
+4. **📚 SKT RAG Retrieval** — Multi-hop search + rerank + compression
+5. **🤖 LangGraph Execution** — Parallel/sequential agent orchestration
+6. **✅ Verification** — Consistency checks + self-correction
+7. **📤 Final Synthesis** — TIGER-OM 13B generates structured response
+
+---
+
+## 🔌 73+ Plugin Ecosystem
+
+| Category | Count | Plugins |
+|----------|-------|---------|
+| 🔍 Search | 8 | Google, DuckDuckGo, Bing, News, Maps, Scraper, Wikipedia, ArXiv |
+| 💻 Code | 10 | Python, JS, Java, Go, Rust, PHP, Reviewer, Test, Packages, Docker |
+| 📊 Data | 9 | Pandas, Matplotlib, Plotly, NumPy, SciPy, Sklearn, CSV, JSON, Excel |
+| 📡 Communication | 7 | Email, Slack, Twitter, SMS, Discord, Voice, Telegram |
+| 🗄️ Database | 8 | PostgreSQL, MongoDB, Redis, MySQL, ChromaDB, Pinecone, BigQuery, SQLite |
+| ☁️ Cloud | 6 | AWS S3, Azure Blob, GCP Storage, Docker Hub, Kubernetes, Cloud Functions |
+| 🤖 AI/ML | 7 | OpenAI GPT, HuggingFace, Claude, Image Gen, Speech, Summary, Translate |
+| 🔒 Security | 5 | Auth, Rate Limit, PII, Vulnerability Scan, Encryption |
+| 📈 Monitoring | 6 | Prometheus, Logs, APM, Alerts, Health, SLO |
+| ⚙️ Automation | 5 | Workflow, Cron, Webhook, CI/CD, Task Queue |
+| 🔗 Integration | 4 | GitHub, GitLab, Jira, Notion |
+
+---
+
+## 🛠️ Tech Stack
+
+```yaml
+GPU:        AMD MI300X
+Framework:  ROCm 7.0
+Inference:  vLLM FP16
+LLM:        TIGER-OM 13B
+Agents:     LangGraph
+RAG:        SKT RAG (ChromaDB + BGE-large)
+Plugins:    Google ADK Style Architecture
+Frontend:   HTML/CSS/JS (Cyberpunk Theme)
+```
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/SHRIJANAGAIN/SKT-AMD-FILES.git
+cd SKT-AMD-FILES
+pip install -r requirements.txt
+python app.py
+```
+
+---
+
+
+print("README.md saved successfully!")
 ## 🚀 What Makes SKT-AI-LABS ADK Different?
 
 Unlike generic wrappers around OpenAI or Google APIs, **SKT-AI-LABS ADK** is a **complete agent operating system**:
