@@ -125,7 +125,7 @@ python app.py
 ---
 
 
-print("README.md saved successfully!")
+
 ## 🚀 What Makes SKT-AI-LABS ADK Different?
 
 Unlike generic wrappers around OpenAI or Google APIs, **SKT-AI-LABS ADK** is a **complete agent operating system**:
